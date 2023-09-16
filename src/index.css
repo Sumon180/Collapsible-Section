@@ -1,0 +1,38 @@
+.App {
+  width: 400px;
+}
+.content {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  width: 100%;
+}
+
+.arrow {
+  rotate: -90deg;
+  transition: all 0.3s ease;
+}
+.active {
+  rotate: 90deg;
+  transition: all 0.3s ease;
+}
+
+.content-parent {
+  height: 0px;
+  overflow: hidden;
+  transition: height ease 0.3s;
+}
+
+.content-show {
+  height: 200px;
+}
+
+li {
+  list-style: none;
+}
